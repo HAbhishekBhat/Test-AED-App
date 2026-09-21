@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        USB Device Filter for External USB Dongles (USB OTG).
+        Used by the USB_DEVICE_ATTACHED intent filter in AndroidManifest.xml.
+
+        AUTO-DETECTION MODE:
+        An empty <usb-device /> tag acts as a universal wildcard matching ANY external
+        USB device connected to the phone. This allows the app to automatically detect
+        the dongle without needing its Vendor ID or Product ID configured in advance.
+
+        OPTIONAL STRICT MODE:
+        If you later wish to restrict attachment to a specific device, specify 'vendor-id'
+        and 'product-id' in decimal integers (e.g. 0x1A86 -> 6790, 0x7523 -> 29987):
+        <usb-device vendor-id="6790" product-id="29987" />
+    -->
+    <usb-device />
+</resources>
