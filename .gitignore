@@ -29,6 +29,7 @@ coverage/
 
 # Android / Gradle build output
 android/.gradle/
+.gradle-project-cache/
 android/local.properties
 android/**/build/
 android/.cxx/
